@@ -4,7 +4,7 @@ def sumar(a, b):
     return a + b
 
 def restar(a, b):
-    return a + b   # error intencional
+    return a+ C   # error intencional
 
 def multiplicar(a, b):
     return a * b
