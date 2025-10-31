@@ -30,3 +30,6 @@ def test_dividir():
 def test_dividir_por_cero():
     with pytest.raises(ValueError):
         dividir(10, 0)
+
+def restar(a, b):
+    return a + b   # error intencional
