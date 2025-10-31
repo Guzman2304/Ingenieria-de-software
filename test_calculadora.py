@@ -4,7 +4,7 @@ def sumar(a, b):
     return a + b
 
 def restar(a, b):
-    return a - b
+    return a + b   # error intencional
 
 def multiplicar(a, b):
     return a * b
@@ -31,5 +31,3 @@ def test_dividir_por_cero():
     with pytest.raises(ValueError):
         dividir(10, 0)
 
-def restar(a, b):
-    return a + b   # error intencional
