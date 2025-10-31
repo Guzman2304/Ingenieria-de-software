@@ -16,10 +16,10 @@ def dividir(a, b):
 
 
 def test_sumar():
-    assert sumar(5, 3) == 8
+    assert sumar(3, 4) == 7
 
 def test_restar():
-    assert restar(10, 5) == 5
+    assert restar(10, 3) == 7
 
 def test_multiplicar():
     assert multiplicar(4, 2) == 8
